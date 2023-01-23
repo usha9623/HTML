@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section>
+        <section class="header">
+     
+            <nav>
+                <div class="logo"><img src="img/logo.png"></div>
+                <div class="navlinks" id="navlinks">
+                    <i class="fa fa-times"onclick="hidemenu()"></i>
+    
+                    <ul>
+                        <li><a href="about.html">ABOUT FEDEX</a></li>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="shipping.html">SHIPPING</a></li>
+                        <li><a href="tracking.html">TRACKING</a></li>
+                        <li><a href="support.html">SUPPORT</a></li>
+                        <li><a href="loginpage.html">SIGN UP & LOGIN</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+     
+            </nav>
+            <div class="textbox">
+                <h1>Tracking</h1>
+                <p>Our tracking tools give you control over your shipments,by helping you stay informed so you can ship with confidence.</p>
+                <a href="https://www.fedex.com/en-in/home.html" class="btn">Visit Us</a>
+            </div>
+    </section>
+
+     <!----javascript--->
+     <script>
+        var navlinks=document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px";
+
+        }
+    </script>
+</body>
+
+</html>

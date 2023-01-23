@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section>
+        <section class="header5">
+     
+            <nav>
+                <div class="logo"><img src="img/logo.png"></div>
+                <div class="navlinks" id="navlinks">
+                    <i class="fa fa-times"onclick="hidemenu()"></i>
+    
+                    <ul>
+                        <li><a href="about.html">ABOUT FEDEX</a></li>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="shipping.html">SHIPPING</a></li>
+                        <li><a href="tracking.html">TRACKING</a></li>
+                        <li><a href="support.html">SUPPORT</a></li>
+                        <li><a href="loginpage.html">SIGN UP & LOGIN</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+     
+            </nav>
+            <div class="textbox">
+                <h1>Customer Support</h1>
+                
+            </div>
+    </section>
+    <section class="support">
+        <p>How can we help you?</p>
+        <div class="row">
+            <div class="support-col">
+                <img src="img/tracking512.jpg" >
+                <div class="layer">
+                    <h2>I have a question about receiving a package</h2>
+                    <a href="https://play.google.com/store/apps/details?id=com.fedex.ida.android&hl=en_IN&gl=US" class="btn red_btn">GO TO RECIEPENT SUPPORT</a>
+                </div>
+            </div>
+                <div class="support-col">
+                    <img src="img/support5.jpeg">
+                    <div class="layer">
+                        <h2>I have a question about sending a package </h2>
+                        <a href="" class="btn red_btn">GO TO SENDER SUPPORT</a>
+                    </div>
+            </div>
+            <div class="support-col">
+                <img src="img/support41.jpg">
+                <div class="layer">
+                    <h2>I have a question about something else</h2>
+                    <a href="loginpage.html" class="btn red_btn">GO TO GENERAL SUPPORT</a>
+                </div>
+        </div>
+
+    </section>
+    
+
+     <!----javascript--->
+     <script>
+        var navlinks=document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px";
+
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section>
+        <section class="header1">
+     
+            <nav>
+                <div class="logo"><img src="img/logo.png"></div>
+                <div class="navlinks" id="navlinks">
+                    <i class="fa fa-times"onclick="hidemenu()"></i>
+    
+                    <ul>
+                        <li><a href="about.html">ABOUT FEDEX</a></li>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="shipping.html">SHIPPING</a></li>
+                        <li><a href="tracking.html">TRACKING</a></li>
+                        <li><a href="support.html">SUPPORT</a></li>
+                        <li><a href="loginpage.html">SIGN UP & LOGIN</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+                <div class="text">
+    
+                 <h1>About FedEx</h1>
+                </div>
+            </nav>
+           
+    </section>
+    <section class="about">
+       <h1>Our solutions connect people and possibilities.</h1>
+       <p>Connecting people with goods, services and ideas creates opportunities and improves lives. At FedEx, we believe that a connected world is a better world, and that belief guides everything we do.</p>
+       <div class="row">
+        <div class="about-col">
+            <img src="img/about2.jpg">
+            <div class="layer">
+                <h2>FedEx history in MEISA</h2>
+                <p1>Find out more about the FedEx Middle East,<br> Indian Subcontinent & Africa Division.<br></p1>
+                <a href="" class="btn red_btn ">LEARN MORE</a>
+            </div>
+
+        </div>    
+            <div class="about-col">
+                <img src="img/about3.jpg">
+                <div class="layer">
+                    <h2>FedEx Facts</h2>
+                    <p1>Everything you always wanted to know about FedEx- from<br> its aircraft and vehicle fleet to package volume and<br> number of employees.</p1>
+                    <br>
+                    <a href="" class="btn red_btn ">GAIN INSIGHT</a>
+                </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="abouta-col">
+            <img src="img/about4.jpg">
+            <div class="layer">
+                <h2>Global Newsroom</h2>
+                <p1>The latest local market and corporate<br> press releases are available for<br> viewing.<br></p1>
+                <a href="" class="btn red_btn ">LEARN MORE</a>
+            </div>
+        </div>
+            <div class="abouta-col">
+                <img src="img/about5.jpg">
+                <div class="layer">
+                    <h2>Environmental, Social & Governance Report</h2>
+                    <p1>The FedEx 2021 ESG report discusses our <br>Environmental, Social & Governance strategies, goals, and programs for each <br>of our operating companies and all geographies in fiscal year 2020.<br></p1>
+                    <a href="" class="btn red_btn ">LEARN MORE</a>
+                </div>
+        </div>
+        <div class="abouta-col">
+            <img src="img/about6.jpg">
+            <div class="layer">
+                <h2>Sustainability</h2>
+                <p1>FedEx is committed to providing global connections while <br>minimizing our environmental impact.<br></p1>
+                <a href="" class="btn red_btn ">SEE HOW WE CONTRIBUTE</a>
+            </div>
+    </div>
+    </div>
+    </section>    
+    
+    
+     <!----javascript--->
+     <script>
+        var navlinks=document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px";
+
+        }
+    </script>
+</body>
+
+</html>
